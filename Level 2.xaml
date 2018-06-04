@@ -11,7 +11,7 @@
     </Window.Background>
     <Grid>
         <Button Click="Click_Back" HorizontalAlignment="Left" Margin="43,125,364,333" VerticalAlignment="Top" Width="75" Height="75" Background="Transparent" BorderThickness="0">
-            <Image Source="C:\Users\H280258\Desktop\Orange Arrow.png" Width="75" Height="75"/>
+            <Image Source="C:\Users\H280258\Desktop\Blue Arrow.png" Width="75" Height="75"/>
         </Button>
 
     </Grid>
