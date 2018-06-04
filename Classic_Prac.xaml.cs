@@ -23,5 +23,12 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void Click_Back(object sender, RoutedEventArgs e)
+        {
+            Practice prac = new Practice();
+            prac.Show();
+            this.Close();
+        }
     }
 }

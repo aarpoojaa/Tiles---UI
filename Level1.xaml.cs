@@ -15,19 +15,20 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for Arcade_Prac.xaml
+    /// Interaction logic for Level1.xaml
     /// </summary>
-    public partial class Arcade_Prac : Window
+    public partial class Level1 : Window
     {
-        public Arcade_Prac()
+        public Level1()
         {
             InitializeComponent();
         }
 
+
         private void Click_Back(object sender, RoutedEventArgs e)
         {
-            Practice prac = new Practice();
-            prac.Show();
+            Window1 win = new Window1();
+            win.Show();
             this.Close();
         }
     }

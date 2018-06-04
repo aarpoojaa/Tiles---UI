@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Level_2" Height="450" Width="800">
+        Title="Level_2" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="ThreeDBorderWindow" BorderThickness="10">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\H280258\Desktop\Orange Hex.png" Opacity="10"></ImageBrush>
+    </Window.Background>
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="195,120,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="542,120,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Click="Click_Back" HorizontalAlignment="Left" Margin="43,125,364,333" VerticalAlignment="Top" Width="75" Height="75" Background="Transparent" BorderThickness="0">
+            <Image Source="C:\Users\H280258\Desktop\Orange Arrow.png" Width="75" Height="75"/>
+        </Button>
 
     </Grid>
 </Window>

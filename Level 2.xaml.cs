@@ -24,17 +24,11 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Leaderboard lead = new Leaderboard();
-            lead.Show();
-            this.Close();
-        }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Click_Back(object sender, RoutedEventArgs e)
         {
-            Leader leader = new Leader();
-            leader.Show();
+            Window1 win = new Window1();
+            win.Show();
             this.Close();
         }
     }
